@@ -5,7 +5,7 @@ from math import factorial
 # Create your views here.
 
 def index(request):
-    return HttpResponse("<h1>WELCOME TO VIEWS OF AN APP<h1>")
+    return HttpResponse("<h1>WELCOME TO VIEWS OF AN MYAPP<h1>")
 
 def home(request):
     return render(request,"myapp/home.html",{'name':"Ranga"})
