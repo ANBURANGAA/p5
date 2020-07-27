@@ -19,5 +19,6 @@ import myapp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #path('primmary suffix,include("appname.urls"))
     path('',include("myapp.urls")),
 ]
